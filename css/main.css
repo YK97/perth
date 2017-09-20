@@ -371,6 +371,7 @@
 	display:block;
 	float:left;
 	padding-left: 115px;
+	margin: auto;
 }
 .subscribe_tags_menu   li {
 		float: left; 
@@ -416,7 +417,7 @@
 .subscribe_search {
 	display:inline-block;
 	height:45px;
-	width:220px;
+	width:170px;
 	background:#ffffff;
 	color:#d3d3d3;
 	border:none;

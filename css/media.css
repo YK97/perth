@@ -61,16 +61,48 @@
     .getadog_header_phone {
         margin-top: 30px;
     }
-    .subscribe_block {
-        padding-left: 0;
+    .subscribe {
+        height: 250px;
+        text-align: center;
+        margin: auto;
     }
-    .subscribe_search {
-        width: 170px;
+    .subscribe_block {
+        text-align: center;
+        margin-top: 100px;
+    }
+    .subscribe_search_block  h1 {
+        margin-top: 10px;
+    }
+    .subscribe_tags_menu   span {
+        margin-right:15px;
+    }
+    .subscribe_tags, .nav_words {
+        display: none;
     }
     }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+    .header_headline, .longwinded_header_block, .getadog_header_block {
+        text-align: center;
+    }
+    .header_phone, .getadog_header_phone, .nav_words, .longwinded_p_block, .longwinded_header_phone, .getadog_header_phone {
+        display: none;
+    }
+    .longwinded_header {
+        height: 550px;
+    }
+    .getadog {
+        height: 550px;
+    }
+    .getadog_header_block {
+        padding-left: 15px;
+    }
+    .subscribe_tags_menu {
+        padding-left: 15px;
+    }
+    .footer_button {
+        margin-right: 10px;
+    }
 }
 
 /* Custom, iPhone Retina */
